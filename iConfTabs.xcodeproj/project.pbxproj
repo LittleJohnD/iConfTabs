@@ -16,10 +16,10 @@
 		DB00B3F21A5C3837008C4AB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB00B3F01A5C3837008C4AB8 /* LaunchScreen.xib */; };
 		DB00B3FE1A5C3837008C4AB8 /* iConfTabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB00B3FD1A5C3837008C4AB8 /* iConfTabsTests.m */; };
 		DB00B4081A5C4049008C4AB8 /* Penglais.png in Resources */ = {isa = PBXBuildFile; fileRef = DB00B4071A5C4049008C4AB8 /* Penglais.png */; };
-		DB00B40C1A5C410B008C4AB8 /* News.png in Resources */ = {isa = PBXBuildFile; fileRef = DB00B4091A5C410B008C4AB8 /* News.png */; };
 		DB00B40D1A5C410B008C4AB8 /* Speech-Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DB00B40A1A5C410B008C4AB8 /* Speech-Bubble.png */; };
-		DB00B40E1A5C410B008C4AB8 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = DB00B40B1A5C410B008C4AB8 /* main.png */; };
 		DBDB36BE1A5C42F4009F387E /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDB36BD1A5C42F4009F387E /* map.png */; };
+		DBDB36C11A5C4502009F387E /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDB36BF1A5C4502009F387E /* main.png */; };
+		DBDB36C21A5C4502009F387E /* News.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDB36C01A5C4502009F387E /* News.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,10 @@
 		DB00B3FC1A5C3837008C4AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB00B3FD1A5C3837008C4AB8 /* iConfTabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iConfTabsTests.m; sourceTree = "<group>"; };
 		DB00B4071A5C4049008C4AB8 /* Penglais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penglais.png; sourceTree = "<group>"; };
-		DB00B4091A5C410B008C4AB8 /* News.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = News.png; sourceTree = "<group>"; };
 		DB00B40A1A5C410B008C4AB8 /* Speech-Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speech-Bubble.png"; sourceTree = "<group>"; };
-		DB00B40B1A5C410B008C4AB8 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 		DBDB36BD1A5C42F4009F387E /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		DBDB36BF1A5C4502009F387E /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		DBDB36C01A5C4502009F387E /* News.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = News.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,10 @@
 		DB00B3DE1A5C3837008C4AB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DBDB36BF1A5C4502009F387E /* main.png */,
+				DBDB36C01A5C4502009F387E /* News.png */,
 				DBDB36BD1A5C42F4009F387E /* map.png */,
-				DB00B4091A5C410B008C4AB8 /* News.png */,
 				DB00B40A1A5C410B008C4AB8 /* Speech-Bubble.png */,
-				DB00B40B1A5C410B008C4AB8 /* main.png */,
 				DB00B4071A5C4049008C4AB8 /* Penglais.png */,
 				DB00B3DF1A5C3837008C4AB8 /* Info.plist */,
 				DB00B3E01A5C3837008C4AB8 /* main.m */,
@@ -219,11 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDB36C21A5C4502009F387E /* News.png in Resources */,
 				DBDB36BE1A5C42F4009F387E /* map.png in Resources */,
+				DBDB36C11A5C4502009F387E /* main.png in Resources */,
 				DB00B3ED1A5C3837008C4AB8 /* Main.storyboard in Resources */,
-				DB00B40E1A5C410B008C4AB8 /* main.png in Resources */,
 				DB00B3F21A5C3837008C4AB8 /* LaunchScreen.xib in Resources */,
-				DB00B40C1A5C410B008C4AB8 /* News.png in Resources */,
 				DB00B40D1A5C410B008C4AB8 /* Speech-Bubble.png in Resources */,
 				DB00B4081A5C4049008C4AB8 /* Penglais.png in Resources */,
 				DB00B3EF1A5C3837008C4AB8 /* Images.xcassets in Resources */,
